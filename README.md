@@ -1,2 +1,355 @@
-# dhiren5.github.io
-Professional Portfolio - Technology Leader &amp; .NET Expert
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhiren Talati - Technology Leader</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        header .title {
+            font-size: 1.5em;
+            opacity: 0.9;
+            margin-bottom: 15px;
+        }
+        
+        header .contact {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            font-size: 0.95em;
+        }
+        
+        header .contact a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+        
+        header .contact a:hover {
+            opacity: 0.8;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        
+        section {
+            background: white;
+            margin-bottom: 30px;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            animation: slideUp 0.5s ease-out;
+        }
+        
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        h2 {
+            color: #667eea;
+            font-size: 2em;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .summary {
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            padding: 25px;
+            border-left: 5px solid #667eea;
+            border-radius: 5px;
+            font-size: 1.05em;
+            line-height: 1.8;
+        }
+        
+        .job {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .job:last-child {
+            border-bottom: none;
+        }
+        
+        .job-title {
+            font-size: 1.3em;
+            color: #667eea;
+            font-weight: bold;
+        }
+        
+        .company {
+            font-size: 1.1em;
+            color: #764ba2;
+            font-weight: 500;
+        }
+        
+        .duration {
+            color: #999;
+            font-size: 0.95em;
+            margin-bottom: 10px;
+        }
+        
+        .highlights {
+            margin-top: 10px;
+            color: #555;
+        }
+        
+        .highlights li {
+            margin-left: 20px;
+            margin-bottom: 8px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        .skill-category {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .skill-category h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        
+        .skill-category p {
+            color: #555;
+            line-height: 1.8;
+        }
+        
+        .cert {
+            background: #f8f9fa;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #764ba2;
+        }
+        
+        .cert-name {
+            font-weight: bold;
+            color: #764ba2;
+            font-size: 1.05em;
+        }
+        
+        .cert-date {
+            color: #999;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+        
+        footer {
+            background: rgba(0,0,0,0.1);
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 40px;
+        }
+        
+        .badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            margin-right: 8px;
+            margin-bottom: 8px;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            
+            header .contact {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dhiren Talati</h1>
+        <div class="title">Technology Leader & Application Development Expert</div>
+        <div class="contact">
+            <a href="tel:+918554950707">📞 +91 855 495 0707</a>
+            <a href="mailto:dhirutalati@outlook.com">✉️ dhirutalati@outlook.com</a>
+            <a href="https://linkedin.com/in/dhirentalati007" target="_blank">🔗 LinkedIn</a>
+            <span>📍 Mumbai, Maharashtra</span>
+        </div>
+    </header>
+    
+    <div class="container">
+        <!-- Summary Section -->
+        <section>
+            <h2>Professional Summary</h2>
+            <div class="summary">
+                Accomplished Technology Leader with 10+ years of experience delivering enterprise-grade solutions and driving digital transformation initiatives. Expertise in .NET Core, Web API, Angular, and cloud-native architectures with a proven track record in modernizing applications, implementing microservices, and leading high-performing teams in Agile environments. Skilled in building scalable systems, optimizing performance, and ensuring code quality through Test-Driven Development and industry best practices.
+            </div>
+        </section>
+        
+        <!-- Experience Section -->
+        <section>
+            <h2>Professional Experience</h2>
+            
+            <div class="job">
+                <div class="job-title">Application Development Team Lead</div>
+                <div class="company">Accenture</div>
+                <div class="duration">Mar 2022 - Present</div>
+                <ul class="highlights">
+                    <li>Architected a .NET Core worker service to process high-volume Kafka messages, improving data processing efficiency by 25%</li>
+                    <li>Led Test-Driven Development adoption across teams using NUnit/XUnit & Moq, reducing defects by 30%</li>
+                    <li>Developed reusable C# helper classes, libraries, and API endpoints based on business rules</li>
+                    <li>Built Angular-based single-page applications (SPA), enhancing user experience and reducing load times</li>
+                    <li>Drove Agile ceremonies and PI planning for seamless project execution and alignment</li>
+                    <li>Spearheaded digital transformation initiative for Charles Schwab during TD Ameritrade merger</li>
+                    <li>Designed high-performance services to load billions of trading account details into Aerospike database</li>
+                    <li>Improved query response times by 40% through optimized data architecture</li>
+                    <li>Managed multi-environment deployments using Harness, reducing release cycles by 20%</li>
+                </ul>
+            </div>
+            
+            <div class="job">
+                <div class="job-title">Technology Leader</div>
+                <div class="company">Infosys</div>
+                <div class="duration">Jan 2021 - Mar 2022</div>
+            </div>
+            
+            <div class="job">
+                <div class="job-title">IT Analyst</div>
+                <div class="company">Tata Consultancy Services (TCS)</div>
+                <div class="duration">Dec 2018 - Oct 2020</div>
+            </div>
+        </section>
+        
+        <!-- Skills Section -->
+        <section>
+            <h2>Core Competencies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming & Frameworks</h3>
+                    <p>C#, ASP.NET Core, MVC, .NET Core 6.0, Web API, Angular, Microservices</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <p>SQL Server, NoSQL (Aerospike)</p>
+                </div>
+                <div class="skill-category">
+                    <h3>DevOps & Tools</h3>
+                    <p>Azure DevOps, GitLab, GIT, Jenkins, Harness, Kafka</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Methodologies & Leadership</h3>
+                    <p>Agile & Scrum, TDD, Team Leadership, Digital Transformation</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Certifications Section -->
+        <section>
+            <h2>Certifications</h2>
+            <div class="cert">
+                <div class="cert-name">GitHub Copilot</div>
+                <div class="cert-date">
+                    <a href="https://www.credly.com/badges/a7821178-3292-45e2-a125-398b2c23c73a" target="_blank" style="color: #667eea; text-decoration: none;">View Credential →</a>
+                </div>
+            </div>
+            <div class="cert">
+                <div class="cert-name">Microsoft Certified: Azure Fundamentals</div>
+                <div class="cert-date">
+                    <a href="https://learn.microsoft.com/en-us/users/dhirentalati/credentials/26cc3b921fe155cd" target="_blank" style="color: #667eea; text-decoration: none;">View Credential →</a>
+                </div>
+            </div>
+            <div class="cert">
+                <div class="cert-name">Microsoft Technology Associate: .NET Fundamentals (MTA)</div>
+                <div class="cert-date">Certified</div>
+            </div>
+            <div class="cert">
+                <div class="cert-name">Reinvention with Agentic AI</div>
+                <div class="cert-date">
+                    <a href="https://www.credly.com/badges/cc0c57b9-1e6c-42e6-84c2-a00615ac4958" target="_blank" style="color: #667eea; text-decoration: none;">View Credential →</a>
+                </div>
+            </div>
+            <div class="cert">
+                <div class="cert-name">Foundations of Project Management</div>
+                <div class="cert-date">
+                    <a href="https://www.coursera.org/account/accomplishments/certificate/YL8RKM86Q3AT" target="_blank" style="color: #667eea; text-decoration: none;">View Credential →</a>
+                </div>
+            </div>
+            <div class="cert">
+                <div class="cert-name">Microsoft 98-363: Web Development Fundamentals</div>
+                <div class="cert-date">April 2014</div>
+            </div>
+        </section>
+        
+        <!-- Education Section -->
+        <section>
+            <h2>Education</h2>
+            <div class="job">
+                <div class="job-title">Bachelor of Engineering (Information Technology)</div>
+                <div class="company">Birla Vishvakarma Mahavidyalaya</div>
+                <div class="duration">May 2013 | CGPA: 7.5 (75%)</div>
+            </div>
+            <div class="job">
+                <div class="job-title">Higher Secondary Certificate (HSC) - Science</div>
+                <div class="company">S.D.N. High School</div>
+                <div class="duration">PCM Stream | 82.60%</div>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Dhiren Talati. All rights reserved.</p>
+        <p>Technology Leader | .NET Expert | Digital Transformation Specialist</p>
+    </footer>
+</body>
+</html>
